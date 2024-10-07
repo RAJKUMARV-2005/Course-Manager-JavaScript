@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollements</title>
+</head>
+<body>
+    <h1>Welcome to the Course Enrollements Manager Site</h1>
+    <h2>
+        Add Student to the Database;
+    </h2>
+    <label for="name">
+        Enter Student Name:
+    </label>
+    <input type="text" id="name"><br><br>
+    <label for="courseid"></label>
+        Enter Course Id:
+    </label>
+    <input type="text" id="courseid"><br><br>
+    <label for="coursename"></label>
+        Enter course Name:
+    </label>
+    <input type="text" id="coursename"><br><br>
+    <button id="submit" onclick="addStudent()">Submit</button>
+    <h2>
+        View Database by Course
+    </h2>
+    <button id="displayDatabase" onclick="displayDetails()">
+        View Enrollements
+    </button>
+    <script src="course.js"></script>
+</body>
+</html>
